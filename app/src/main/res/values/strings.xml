@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Railway Time Prediction</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+    <string name="kalkis">KALKIŞ DURAĞI SEÇİN</string>
+    <string name="varis">VARIŞ DURAĞI SEÇİN</string>
+</resources>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="METRO">
+        <menu>
+            <item
+                android:id="@+id/m1a"
+                android:icon="@drawable/m1a"
+                android:title="Metro - 1A"
+                />
+
+            <item
+                android:id="@+id/m1b"
+                android:icon="@drawable/m1b"
+                android:title="Metro - 1B"
+                />
+
+            <item
+                android:id="@+id/m2"
+                android:icon="@drawable/m2"
+                android:title="Metro - 2"
+                />
+
+            <item
+                android:id="@+id/m3"
+                android:icon="@drawable/m3"
+                android:title="Metro - 3"
+                />
+
+            <item
+                android:id="@+id/m4"
+                android:icon="@drawable/m4"
+                android:title="Metro - 4"
+                />
+
+            <item
+                android:id="@+id/m5"
+                android:icon="@drawable/m5"
+                android:title="Metro - 5"
+                />
+
+            <item
+                android:id="@+id/m6"
+                android:icon="@drawable/m6"
+                android:title="Metro - 6"
+                />
+
+            <item
+                android:id="@+id/m7"
+                android:icon="@drawable/m7"
+                android:title="Metro - 7"
+                />
+
+            <item
+                android:id="@+id/m8"
+                android:icon="@drawable/m8"
+                android:title="Metro - 8"
+                />
+
+            <item
+                android:id="@+id/m9"
+                android:icon="@drawable/m9"
+                android:title="Metro - 9"
+                />
+
+            <item
+                android:id="@+id/m10"
+                android:icon="@drawable/m10"
+                android:title="Metro - 10"
+                />
+
+            <item
+                android:id="@+id/m11"
+                android:icon="@drawable/m11"
+                android:title="Metro - 11"
+                />
+
+            <item
+                android:id="@+id/m12"
+                android:icon="@drawable/m12"
+                android:title="Metro - 12"
+                />
+
+            <item
+                android:id="@+id/m13"
+                android:icon="@drawable/m13"
+                android:title="Metro - 13"
+                />
+
+            <item
+                android:id="@+id/m14"
+                android:icon="@drawable/m14"
+                android:title="Metro - 14"
+                />
+        </menu>
+    </item>
+
+    <item android:title="TRAMVAY">
+        <menu>
+            <item
+                android:id="@+id/t1"
+                android:icon="@drawable/t1"
+                android:title="Tramvay - 1"
+                />
+
+            <item
+                android:id="@+id/t2"
+                android:icon="@drawable/t2"
+                android:title="Tramvay - 2"
+                />
+
+            <item
+                android:id="@+id/t3"
+                android:icon="@drawable/t3"
+                android:title="Tramvay - 3"
+                />
+
+            <item
+                android:id="@+id/t4"
+                android:icon="@drawable/t4"
+                android:title="Tramvay - 4"
+                />
+
+            <item
+                android:id="@+id/t5"
+                android:icon="@drawable/t5"
+                android:title="Tramvay - 5"
+                />
+
+            <item
+                android:id="@+id/t6"
+                android:icon="@drawable/t6"
+                android:title="Tramvay - 6"
+                />
+        </menu>
+    </item>
+
+    <item android:title="FÜNİKÜLER">
+        <menu>
+            <item
+                android:id="@+id/f1"
+                android:icon="@drawable/f1"
+                android:title="Füniküler - 1"
+                />
+
+            <item
+                android:id="@+id/f2"
+                android:icon="@drawable/f2"
+                android:title="Füniküler - 2"
+                />
+
+            <item
+                android:id="@+id/f3"
+                android:icon="@drawable/f3"
+                android:title="Füniküler - 3"
+                />
+
+            <item
+                android:id="@+id/f4"
+                android:icon="@drawable/f4"
+                android:title="Füniküler - 4"
+                />
+
+            <item
+                android:id="@+id/f5"
+                android:icon="@drawable/f5"
+                android:title="Füniküler - 5"
+                />
+        </menu>
+    </item>
+
+    <item android:title="TELEFERİK">
+        <menu>
+            <item
+                android:id="@+id/tf1"
+                android:icon="@drawable/tf1"
+                android:title="Teleferik - 1"
+                />
+
+            <item
+                android:id="@+id/tf2"
+                android:icon="@drawable/tf2"
+                android:title="Teleferik - 2"
+                />
+        </menu>
+    </item>
+
+    <item android:title="DİĞER">
+        <menu>
+            <item
+                android:id="@+id/marmaray"
+                android:icon="@drawable/marmaray"
+                android:title="Marmaray"
+                />
+        </menu>
+    </item>
+</menu>
