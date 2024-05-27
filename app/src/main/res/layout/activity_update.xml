@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_layout"
+    tools:context=".settingsPackage.UpdateActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/escape_button">
+
+        <Button
+            android:id="@+id/change_first_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/adini_guncelle"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            app:backgroundTint="@null"
+            android:background="@drawable/application_other_button"
+            />
+
+        <Button
+            android:id="@+id/change_last_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/soyadini_güncelle"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/change_first_name"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="30dp"
+            app:backgroundTint="@null"
+            android:background="@drawable/application_other_button"
+            />
+
+        <Button
+            android:id="@+id/change_mail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mail_adresini_guncelle"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/change_last_name"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="30dp"
+            app:backgroundTint="@null"
+            android:background="@drawable/application_other_button"
+            />
+
+        <Button
+            android:id="@+id/change_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sifreni_guncelle"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/change_mail"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="30dp"
+            app:backgroundTint="@null"
+            android:background="@drawable/application_other_button"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/escape_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/geri_don"
+        app:backgroundTint="@null"
+        android:background="@drawable/application_escape_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

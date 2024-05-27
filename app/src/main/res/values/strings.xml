@@ -4,4 +4,31 @@
     <string name="close_nav">Close Navigation Drawer</string>
     <string name="kalkis">KALKIŞ DURAĞI SEÇİN</string>
     <string name="varis">VARIŞ DURAĞI SEÇİN</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="todo">TODO</string>
+    <string name="adinizi_girin">Adınızı Girin</string>
+    <string name="soyadinizi_girin">Soyadınızı Girin</string>
+    <string name="mail_adresinizi_girin">Mail Adresinizi Girin</string>
+    <string name="parola_olusturun">Parola Oluşturun</string>
+    <string name="parolanizi_onaylayin">Parolanızı Onaylayın</string>
+    <string name="beni_hatirla">"     Beni Hatırla"</string>
+    <string name="kayit_ol">Kayıt ol</string>
+    <string name="giris_yap">Giriş Yap</string>
+    <string name="parolanizi_girin">Parolanızı Girin</string>
+    <string name="temp_text">Temp Text</string>
+    <string name="hesap_bilgilerini_degistir">HESAP BİLGİLERİNİ DEĞİŞTİR</string>
+    <string name="cikis_yap">ÇIKIŞ YAP</string>
+    <string name="hesabi_sil">HESABI SİL</string>
+    <string name="ana_sayfa">ANA SAYFA</string>
+    <string name="adini_guncelle">Adını Güncelle</string>
+    <string name="soyadini_güncelle">Soydını Güncelle</string>
+    <string name="mail_adresini_guncelle">Mail Adresini Güncelle</string>
+    <string name="sifreni_guncelle">Şifreni Güncelle</string>
+    <string name="geri_don">GERİ DÖN</string>
+    <string name="baslangic_saatini">BAŞLANGIÇ SAATİNİ</string>
+    <string name="yerel_saat_kullan">Yerel Saat Kullan</string>
+    <string name="kendin_belirle">Kendin Belirle</string>
+    <string name="hesapla">HESAPLA</string>
+    <string name="duraklari_incele">Durakları\nİncele</string>
 </resources>

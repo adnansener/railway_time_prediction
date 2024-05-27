@@ -34,6 +34,7 @@
                     android:layout_marginEnd="10dp"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
+                    android:contentDescription="@string/todo"
                     />
 
             </LinearLayout>
@@ -42,10 +43,10 @@
                 android:id="@+id/departure_station_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:textColor="@color/black"
                 android:textStyle="bold"
-                android:text="asdasd"
+                android:text="@string/temp_text"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintStart_toEndOf="@id/linear"
                 />
@@ -54,10 +55,10 @@
                 android:id="@+id/departure_time"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:textColor="@color/black"
                 android:textStyle="bold"
-                android:text="asdasd"
+                android:text="@string/temp_text"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toEndOf="@id/linear"
@@ -67,10 +68,10 @@
                 android:id="@+id/arrival_station_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:textColor="@color/black"
                 android:textStyle="bold"
-                android:text="asdasd"
+                android:text="@string/temp_text"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toEndOf="@id/linear"
                 />
@@ -88,10 +89,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="30dp"
-                    android:textSize="15dp"
+                    android:textSize="15sp"
                     android:textColor="@color/black"
                     android:textStyle="bold"
-                    android:text="asdasd"
+                    android:text="@string/temp_text"
                     />
 
                 <TextView
@@ -99,16 +100,12 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="30dp"
-                    android:textSize="15dp"
+                    android:textSize="15sp"
                     android:textColor="@color/black"
                     android:textStyle="bold"
-                    android:text="asdasd"
+                    android:text="@string/temp_text"
                     />
             </LinearLayout>
-
-
-
-
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -120,19 +117,16 @@
                 android:id="@+id/when_created"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:textColor="@color/black"
                 android:textStyle="italic"
-                android:text="when"
+                android:text="@string/temp_text"
                 android:layout_marginStart="10dp"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintBottom_toBottomOf="parent"
                 />
-
         </androidx.constraintlayout.widget.ConstraintLayout>
-
     </LinearLayout>
-
 </androidx.cardview.widget.CardView>

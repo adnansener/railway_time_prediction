@@ -12,15 +12,29 @@
         android:theme="@style/Theme.ArrivePredictionSystem"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
-            android:exported="true"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            android:name=".settingsPackage.UpdateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".settingsPackage.SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".introductionPackage.LoginActivity"
+            android:exported="true">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".introductionPackage.RegisterActivity"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".platformsPackage.MainActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
     </application>
 
 </manifest>

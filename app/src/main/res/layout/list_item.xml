@@ -11,7 +11,5 @@
         android:textAlignment="center"
         android:textColor="@color/black"
         android:background="@color/bg_color"
-        android:textSize="20sp"
-        android:textStyle="bold" />
-
+        android:textSize="20sp"/>
 </RelativeLayout>

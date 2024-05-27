@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="@drawable/switch_off_output_background_tiny_line">
+
+    <Button
+        android:id="@+id/escape_button"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/close_image"
+        app:backgroundTint="@color/switchOffColor"
+        android:layout_gravity="center"
+        />
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:divider="#8E8E8E"
+        android:dividerHeight="1dp"
+        android:layout_weight="1"
+        />
+</LinearLayout>
